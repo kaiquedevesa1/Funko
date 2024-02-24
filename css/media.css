@@ -1,0 +1,171 @@
+@media screen and (max-width: 1440px) {
+  header {
+    background-image: url("/imagens/spidermanheader_mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .logo-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header-list {
+    padding-top: 30px;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .header-item {
+    margin-left: 15px;
+  }
+
+  .title-spider-container {
+    margin-top: 15em;
+    padding: 0;
+  }
+
+  #title-spider {
+    height: 25vh;
+  }
+
+  .quem-somos {
+    width: 100%;
+    background: linear-gradient(#fe7467, #fc3836);
+  }
+
+  .quem-somos h1 {
+    font-size: 25px;
+  }
+
+  .quem-somos-text {
+    justify-self: center;
+    width: 80%;
+    text-align: center;
+  }
+
+  .quem-somos-text p {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .catalogo-content {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .img-bonecos {
+    max-width: 100%;
+  }
+
+  .img-bonecos img {
+    width: 100%;
+    height: auto;
+  }
+
+  .catalogo-text {
+    padding: 100px 0 0 0;
+    width: 80%;
+  }
+
+  .catalogo-text p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .container-button {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  /*Catálogo*/
+
+  .catalogo-media {
+    background-image: url("/imagens/captainmarvelheader_Mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .title-captain {
+    display: none;
+  }
+
+  .catalogo {
+    display: block;
+  }
+  .catalogo h3 {
+    padding: 0;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards-all {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+  }
+
+  .catalogo-img {
+  }
+
+  /*Contato*/
+  .contato-media {
+    background-image: url("/imagens/contatoheader_mobile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .logo-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header-list {
+    padding-top: 30px;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .header-item {
+    margin-left: 15px;
+  }
+
+  .img-title {
+    display: none;
+  }
+
+  .contato-title {
+    padding-top: 50px;
+  }
+
+  .contato-text p {
+    width: 100%;
+  }
+
+  .formulario {
+    margin-bottom: 50px;
+  }
+
+  .container-formulario {
+    width: 100%;
+  }
+
+  .effect-line {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 0 0;
+  }
+
+  textarea {
+    width: 100%;
+    flex: none;
+  }
+}

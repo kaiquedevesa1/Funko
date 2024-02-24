@@ -1,0 +1,161 @@
+header {
+  background-image: url("/imagens/contatoheader.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.captain-container {
+  display: flex;
+  width: 100%;
+  margin-top: 550px;
+  margin-left: 380px;
+}
+
+.title-captain {
+  height: 30vh;
+}
+
+.header-item::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  background-color: #fe7467;
+  bottom: -10px;
+  left: 25%;
+  display: none;
+}
+
+.header-item:hover::after,
+.active::after {
+  display: block;
+}
+
+.logo-nav {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+#logo {
+  width: 150px;
+}
+
+.header-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.header-item {
+  padding: 0 20px;
+  font-size: 20px;
+  color: white;
+  margin-left: 50px;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s;
+  letter-spacing: 2px;
+}
+
+.img-title img {
+  width: 40%;
+}
+
+.img-title {
+  display: flex;
+  margin-top: 450px;
+  margin-left: 250px;
+}
+
+.contato-title {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  letter-spacing: 2px;
+  position: relative;
+  margin-top: 60px;
+}
+
+.contato-title::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  border: solid 3px #fe7467;
+  bottom: -20px;
+  left: 45%;
+}
+
+.contato-text {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  padding: 40px;
+}
+
+.contato-text p {
+  width: 30%;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  width: 100%;
+  gap: 20px;
+}
+
+.effect-line {
+  border-radius: 10px;
+  padding: 15px 50px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  width: 100%;
+}
+
+.container-formulario {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+textarea {
+  height: 190px;
+  border-radius: 10px;
+  padding: 15px 50px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  resize: none;
+  flex: 1;
+}
+
+.container-button {
+  display: flex;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.container-button button {
+  padding-block: 10px;
+  width: 100%;
+  max-width: 500px;
+  background: linear-gradient(#fe7467, #fc3836);
+  border: none;
+  border-radius: 10px;
+}
+
+.button-contato {
+  padding-block: 10px;
+  width: 100%;
+  background: linear-gradient(#fe7467, #fc3836);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+}
