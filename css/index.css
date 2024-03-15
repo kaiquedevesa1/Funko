@@ -1,5 +1,5 @@
 header {
-  background-image: url("/imagens/spidermanheader.jpg");
+  background-image: url("../imagens/spidermanheader.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -63,7 +63,7 @@ header {
 /*------------------------------*/
 
 .quem-somos {
-  background-image: url("/imagens/thor_header.jpg");
+  background-image: url("../imagens/thor_header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
