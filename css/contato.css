@@ -5,15 +5,16 @@ header {
   height: 100vh;
 }
 
-.captain-container {
-  display: flex;
-  width: 100%;
-  margin-top: 550px;
-  margin-left: 380px;
-}
-
-.title-captain {
-  height: 30vh;
+.header-item {
+  padding: 0 20px;
+  font-size: 20px;
+  color: white;
+  margin-left: 50px;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s;
+  letter-spacing: 2px;
+  display: block;
 }
 
 .header-item::after {
@@ -47,17 +48,6 @@ header {
   justify-content: center;
 }
 
-.header-item {
-  padding: 0 20px;
-  font-size: 20px;
-  color: white;
-  margin-left: 50px;
-  text-decoration: none;
-  position: relative;
-  transition: all 0.3s;
-  letter-spacing: 2px;
-}
-
 .img-title img {
   width: 40%;
 }
@@ -75,6 +65,7 @@ header {
   letter-spacing: 2px;
   position: relative;
   margin-top: 60px;
+  text-align: center;
 }
 
 .contato-title::after {
